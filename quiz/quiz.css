@@ -3,3 +3,15 @@ img{
     width: 350px;
     float: right;
 }
+
+h1{
+    color: orange;
+}
+
+p{
+    color: purple;
+}
+
+section{
+    background-color: lightgray;
+}
