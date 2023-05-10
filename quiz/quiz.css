@@ -15,4 +15,5 @@ p{
 section{
     background-color: lightgray;
     overflow: auto;
+    padding: 25px;
 }
