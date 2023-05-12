@@ -1,0 +1,43 @@
+/* Step 7 & 8*/
+div{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a{
+    text-align: center;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+#background{
+    height: 725px;
+    background-color: orangered;
+}
+body{
+    background-color: #fcfbfb;
+}
+header{
+    background-color: brown;
+}
+nav a:hover{
+    background-color: cyan;
+}
+.book, .join{
+    background-color: darkgoldenrod;
+}
+.book:hover, .join:hover{
+    background-color: darkblue;
+}
+.msg{
+    background-color: aqua;
+}
+footer{
+    background-color: deepskyblue;
+}
+/*Stopped at step 13*/
