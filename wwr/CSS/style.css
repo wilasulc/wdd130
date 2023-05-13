@@ -9,8 +9,8 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    color: white;
-    background-color: cyan;
+    color: black;
+    background-color: #83C5BE;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -23,50 +23,51 @@ main section{
 }
 #background{
     height: 725px;
-    background-color: orangered;
+    background-color: #F26419;
 }
 body{
-    background-color: #fcfbfb;
+    background-color: #EDF6F9;
 }
 header{
-    background-color: brown;
+    background-color: #006D77;
 }
 .book, .join{
-    background-color: darkgoldenrod;
+    background-color: #F26419;
     text-decoration: none;
 }
 .book:hover, .join:hover{
-    background-color: darkblue;
+    color: #ffffff;
+    background-color: #006D77;
 }
 .msg{
-    background-color: aqua;
+    background-color: #83C5BE;
 }
 footer{
-    background-color: deepskyblue;
+    background-color: #006D77;
     color: black;
 }
 .home-title{
-    color: blueviolet;
+    color: #000000;
 }
 h4{
-    color: green;
+    color: #000000;
 }
 .book, .join{
-    color: red;
+    color: #000000;
     text-decoration: none;
 }
 .msg h2{
-    color: yellowgreen;
+    color: #000000;
 }
 .msg p{
-    color: indigo;
+    color: #000000;
 }
 footer a{
-    color: tan;
+    color: #000000;
     text-decoration: none;
 }
 footer a:hover{
-    color: brown;
+    color: #EDF6F9;
 }
 .icon{
     width: 80px;
