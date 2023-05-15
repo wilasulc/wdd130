@@ -1,6 +1,10 @@
+body{
+    background-color: pink;
+}
 h1{
     text-align: center;
 }
 img{
-    size: 500px;
+    max-width: 25%;
+    max-height: 25%;
 }
