@@ -1,7 +1,25 @@
-/* Step 7 & 8*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Oxygen:wght@300&display=swap');
+body{
+    font-size: 22px;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
+}
+.home-title, .msg h2{
+    font-family: Caveat;
+}
+.home-title{
+    font-size: 2em;
+}
+#hero-msg h4, .msg p{
+    font-family: Oxygen;
+}
+h2{
+    font-family: Caveat;
+}
+.msg p{
+    font-size: .8em;
 }
 nav a{
     text-align: center;
@@ -40,6 +58,8 @@ header{
 .book, .join{
     background-color: #F26419;
     text-decoration: none;
+    font-size: 18px;
+    font-family: Oxygen;
 }
 .book:hover, .join:hover{
     color: #ffffff;
@@ -47,6 +67,7 @@ header{
 }
 .msg{
     background-color: #83C5BE;
+    line-height: 1.5em;
 }
 footer{
     background-color: #006D77;
