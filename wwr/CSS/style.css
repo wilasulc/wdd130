@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Oxygen:wght@300&display=swap');
 body{
     font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+.icon{
+    padding-top: 10px;
 }
 #content{
     max-width: 1600px;
     margin: 0 auto;
+}
+#logo_link{
+    padding-top: 5px;
 }
 .home-title, .msg h2{
     font-family: Caveat;
@@ -17,14 +25,17 @@ body{
 }
 h2{
     font-family: Caveat;
+    margin: 0;
 }
 .msg p{
     font-size: .8em;
+    padding-bottom: 15px;
 }
 nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 a img{
     width: 80px;
@@ -56,10 +67,12 @@ header{
     background-color: #006D77;
 }
 .book, .join{
+    color: #000000;
     background-color: #F26419;
     text-decoration: none;
     font-size: 18px;
     font-family: Oxygen;
+    padding: 15px 30px;
 }
 .book:hover, .join:hover{
     color: #ffffff;
@@ -68,6 +81,7 @@ header{
 .msg{
     background-color: #83C5BE;
     line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #006D77;
@@ -78,10 +92,6 @@ footer{
 }
 h4{
     color: #000000;
-}
-.book, .join{
-    color: #000000;
-    text-decoration: none;
 }
 .msg h2{
     color: #000000;
