@@ -73,6 +73,17 @@ header{
     font-size: 18px;
     font-family: Oxygen;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+main section img{
+    box-sizing: border-box;
+}
+.card-img{
+    border: 10px solid #000000;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 .book:hover, .join:hover{
     color: #ffffff;
@@ -86,9 +97,11 @@ header{
 footer{
     background-color: #006D77;
     color: black;
+    margin-top: 200px;
 }
 .home-title{
     color: #000000;
+    margin-top: 10px;
 }
 h4{
     color: #000000;
@@ -98,6 +111,7 @@ h4{
 }
 .msg p{
     color: #000000;
+    padding-bottom: 15px;
 }
 footer a{
     color: #000000;
@@ -114,4 +128,10 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+footer{
+    padding: 25px 50px;
+}
+footer .social img{
+    padding-top: 15px;
 }
