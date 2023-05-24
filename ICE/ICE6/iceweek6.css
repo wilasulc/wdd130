@@ -1,0 +1,16 @@
+.grid{
+    --column-count: 3;
+    display: grid;
+    grid-template-columns: repeat(var(--column-count), 1fr);
+}
+body{
+    background-color: #b8b8b8
+}
+h2{
+    color: #9c1313
+}
+img{
+    max-width: 50%;
+    min-width: 300px;
+    background-color: #ffffff;
+}
