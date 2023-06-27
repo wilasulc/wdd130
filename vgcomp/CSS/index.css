@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Wix+Madefor+Display&display=swap');
+
+:root {
+    --primary-color: #00439c   ;
+    --secondary-color: #0f7c0f ;
+    --tertiary-color: #e7000a;
+    --accent1-color: #f9f8f8;
+    --accent2-color: #00171f;
+  
+    --heading-font: "Bruno Ace";
+    --paragraph-font: "Wix Madefor Display";
+  
+    --headline-color-on-white: #00171f;  /* headlines on a white background */ 
+    --headline-color-on-color: #f9f8f8; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #00171f; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #f9f8f8; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #e7000a;
+    --nav-link-color: #00171f;
+    --nav-background-color: #0f7c0f;
+    --nav-hover-link-color: #f9f8f8;
+    --nav-hover-background-color: #00439c;
+  }
+  body{
+    background-color: var(--accent2-color);
+  }
+
+  header a img{
+    max-width: 25%;
+    max-height: auto;
+  }
+  header {
+    padding: 1em;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--headline-color-on-white);
+  }
+  nav a{
+    text-align: center;
+    background-color: var(--headline-color-on-color);
+    color: var(--headline-color-on-white);
+    padding: 20px;
+    font-family: var(--heading-font);
+  }
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  h1, h3, h4, p{
+    color: var(--paragraph-color-on-color);
+    padding: 5px;
+  }
+  h1, h3, h4{
+    font-family: var(--heading-font);
+  }
+  p{
+    font-family: var(--paragraph-font);
+  }
+  .paragraph1, .paragraph2, .paragraph3, .paragraph4, .paragraph5{
+    grid-column: 1/2;
+  }
+  
