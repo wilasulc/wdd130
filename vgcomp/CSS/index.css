@@ -81,6 +81,10 @@
     grid-column: 2/3;
     border: 15px solid var(--accent1-color);
   }
+  main img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
   h1, h3, h4, p{
     color: var(--paragraph-color-on-color);
     padding: 5px;
