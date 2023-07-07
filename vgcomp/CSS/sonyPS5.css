@@ -100,7 +100,7 @@
   main #paragraph1{
     grid-row: 1/2;
   }
-  main #paragraph2 h3{
+  main #paragraph2{
     grid-row: 2/3;
   }
   main #paragraph3{
